@@ -1,0 +1,827 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" type="image/x-icon" href="../images/sdgh.png">
+    <title>Bolashaq Saraiy</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="../css/assets/fonts/fonts.css" rel="stylesheet">
+    <link href="../css/assets/bootsrap.min.css" rel="stylesheet">
+    <link href="../css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/assets/fonts/icomoon.css">
+    <link rel="stylesheet" href="../css/assets/fonts/font-awesome.css">
+</head>
+
+<body>
+
+<!-- ==============================================
+** Preloader **
+=================================================== -->
+<div id="loading">
+    <div class="element">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+</div>
+
+<!-- ==============================================
+** Header **
+=================================================== -->
+<header>
+    <!-- Start Header top Bar -->
+    <div class="header-top">
+        <div class="container clearfix">
+            <ul class="follow-us hidden-xs">
+                <li><a href="https://www.facebook.com/Bsaqmola" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCho9-OqZYnnaxiOyAJZFK3w" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/bs_aqmola/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+            <div class="right-block clearfix">
+                <ul class="top-nav hidden-xs">
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="apply-online.html">Apply Online</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="faq1.html">FAQs</a></li>
+                </ul>
+                <div class="lang-wrapper">
+                    <div class="select-lang">
+                        <select id="currency_select">
+                            <option value="usd">USD</option>
+                            <option value="aud">RUB</option>
+                            <option value="gbp">TENGE</option>
+                        </select>
+                    </div>
+                    <div class="select-lang2">
+                        <select class="custom_select">
+                            <option value="en">English</option>
+                            <option value="fr">Russia</option>
+                            <option value="de">Kazakh</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header top Bar -->
+
+    <!-- Start Header Middle -->
+    <div class="container header-middle">
+        <div class="row"> <span class="col-xs-6 col-sm-3"><a href="../index.html"><img src="../images/Mirasss_logos.svg" class="img-responsive" alt=""></a></span>
+            <div class="col-xs-6 col-sm-3"></div>
+            <div class="col-xs-6 col-sm-9">
+                <div class="contact clearfix">
+                    <ul class="hidden-xs">
+                        <li> <span>Email</span> <a href="mailto:bsaqmola@mail.ru">bsaqmola@mail.ru</a> </li>
+                        <li> <span>Toll Free</span> 1800 000 0000 </li>
+                    </ul>
+                    <a href="login.html" class="login">Student Login <span class="icon-more-icon"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Middle -->
+
+    <!-- Start Navigation -->
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+                <form class="navbar-form navbar-right">
+                    <input type="text" placeholder="Search Now" class="form-control">
+                    <button class="search-btn"><span class="icon-search-icon"></span></button>
+                </form>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"> <a href="../index.html">Home</a></li>
+                    <li> <a href="about.html">About</a></li>
+                    <li class="dropdown"> <a href="courses.html">Our Courses </a></li>
+                    <li> <a href="gallery.html">Gallery</a></li>
+                    <li class="dropdown"> <a data-toggle="dropdown" href="#">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="visible-xs"><a href="register.html">Register</a></li>
+                            <li class="visible-xs"><a href="apply-online.html">Apply online</a></li>
+                            <li class="visible-xs"><a href="blog.html">Blog</a></li>
+                            <li class="visible-xs"><a href="faq.html">FAQs</a></li>
+                            <li><a href="news.html">Latest News</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="faq1.html">FAQ 1</a></li>
+                            <li><a href="faq2.html">FAQ 2</a></li>
+                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                            <li class="hidden-xs"><a href="privacy.html">Privacy Policy</a></li>
+                            <li class="hidden-xs"><a href="terms.html">Terms of Use</a></li>
+                            <li class="hidden-xs"><a href="generic-ui.html">Generic UI</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navigation -->
+</header>
+
+<!-- ==============================================
+** Inner Banner **
+=================================================== -->
+<div class="inner-banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 col-lg-9">
+                <div class="content">
+                    <h1>Courses</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+            <div class="col-sm-4 col-lg-3"> <a href="apply-online.html" class="apply-online clearfix">
+                <div class="left clearfix"> <span class="icon"><img src="images/apply-online-sm-ico.png" class="img-responsive" alt=""></span> <span class="txt">Apply Online</span> </div>
+                <div class="arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+            </a> <a href="../images/document.courses/anketa%20(1).docx" download class="download-prospects brochure"> <span class="icon-brochure-icon"></span> <span class="small">Download:</span>Course Brochure</a> </div>
+        </div>
+    </div>
+</div>
+
+<!-- ==============================================
+** Course Description **
+=================================================== -->
+<section class="about inner padding-lg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-md-push-5 left-block">
+                <h2>Course</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <div class="cert-head">
+                    <h3>CERTIFICATION</h3>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                <ul class="cert-list clearfix">
+                    <li>Lorem Ipsum is simply dummy text of the</li>
+                    <li>Lorem Ipsum is simply dummy </li>
+                    <li>Lorem Ipsum is simply dummy </li>
+                    <li>Lorem Ipsum is simply dummy text of the</li>
+                </ul>
+            </div>
+            <div class="col-md-5 col-md-pull-7">
+                <div class="enquire-wrapper">
+                    <figure class="hidden-xs hidden-sm"><img src="../images/course-img.jpg" class="img-responsive" alt=""></figure>
+                    <div class="enquire-now">
+                        <div class="inner">
+                            <h3>Find out now</h3>
+                            <div class="row1">
+                                <input name="Name" type="text" placeholder="Name">
+                            </div>
+                            <div class="row2 clearfix">
+                                <input name="Email" type="text" placeholder="Email">
+                                <input name="Phone" type="text" placeholder="Phone">
+                            </div>
+                            <div class="row2 clearfix">
+                                <input name="Place" type="text" placeholder="Place">
+                                <input name="Course" type="text" placeholder="Course">
+                            </div>
+                        </div>
+                        <button class="enquire-btn">Enquire now <span class="icon-more-icon"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="course-detail clearfix">
+                    <div class="duration clearfix">
+                        <div class="icon"><span class="icon-duration-icon"></span></div>
+                        <div class="detail"> <span>Duration</span> 1year </div>
+                    </div>
+                    <div class="duration eligible clearfix">
+                        <div class="icon"><span class="icon-eligibility-icon"></span></div>
+                        <div class="detail"> <span>Lorem</span>Lorem ipsum dolor.<br>
+                            Lorem/ipsum.</div>
+                    </div>
+                    <div class="duration fee clearfix">
+                        <div class="detail"> <span>Lorem ipsum.</span> Free</div>
+                    </div>
+                    <a href="apply-online.html" class="btn">apply now<span class="icon-more-icon"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==============================================
+** Course Details Tab **
+=================================================== -->
+<section class="details-tab">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="bs-example bs-example-tabs" data-example-id="togglable-tabs">
+                    <ul class="nav nav-tabs course-tab" id="myTabs" role="tablist">
+                        <li role="presentation" class="active">
+                            <a href="#curriculam" id="curriculam-tab" role="tab" data-toggle="tab" aria-controls="curriculam" aria-expanded="true">
+                                <span class="icon-curriculam-icon"></span>
+                                <div class="block">Lorem</div>
+                                Lorem
+                            </a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#schedule" role="tab" id="schedule-tab" data-toggle="tab" aria-controls="schedule" aria-expanded="false">
+                                <span class="icon-schedule-icon"></span>
+                                <div class="block">FEE</div>
+                                SCHEDULE
+                            </a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#semester" role="tab" id="semester-tab" data-toggle="tab" aria-controls="semester" aria-expanded="false">
+                                <span class="icon-semester-icon"></span>
+                                <div class="block">SEMESTER</div>
+                                I TO IV
+                            </a>
+                        </li>
+                        <li role="presentation" class="">
+                            <a href="#teachers" role="tab" id="teachers-tab" data-toggle="tab" aria-controls="teachers" aria-expanded="false">
+                                <span class="icon-parents-icon"></span>
+                                <div class="block">Main</div>
+                                Teachers
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade active in" role="tabpanel" id="curriculam" aria-labelledby="curriculam-tab">
+                            <div class="table-responsive">
+                                <table class="table course-table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>Sem 1</th>
+                                        <th>Sem 2</th>
+                                        <th>Sem 3</th>
+                                        <th>Sem 4</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="table-col1">
+                                                <div class="lecture-txt">Lecture <span>1.1</span> <a href="#" class="preview">Preview</a> </div>
+                                                Lorem Ipsum is simply dummy
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="schedule" aria-labelledby="schedule-tab">
+                            <div class="table-responsive">
+                                <table class="table course-table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>FEES</th>
+                                        <th>AMOUNT</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="table-col1"> One Time Payment</div>
+                                        </td>
+                                        <td>
+                                            <div class="fee-amt">free</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="table-col1"> Short term Installment Plan </div>
+                                        </td>
+                                        <td>
+                                            <div class="fee-amt">free</div>
+                                            <ul class="fee-details">
+                                                <li>Lorem Ipsum is simply dummy text of the</li>
+                                                <li>Lorem Ipsum is simply dummy </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="table-col1"> Short term Installment Plan </div>
+                                        </td>
+                                        <td>
+                                            <div class="fee-amt">free</div>
+                                            <ul class="fee-details">
+                                                <li>Lorem Ipsum is simply dummy text of the</li>
+                                                <li>Lorem Ipsum is simply dummy </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="semester" aria-labelledby="semester-tab">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="content">
+                                        <li>
+                                            <h4>Lorem Ipsum is simply dummy</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</p>
+                                            <ul>
+                                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</li>
+                                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</li>
+                                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <h4>Lorem Ipsum is simply dummy</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</p>
+                                        </li>
+                                        <li>
+                                            <h4>Lorem Ipsum is simply dummy</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="content">
+                                        <li>
+                                            <h4>Lorem Ipsum is simply dummy</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</p>
+                                        </li>
+                                        <li>
+                                            <h4>Lorem Ipsum is simply dummy</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</p>
+                                        </li>
+                                        <li>
+                                            <h4>Lorem Ipsum is simply dummy</h4>
+                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</p>
+                                            <ul>
+                                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</li>
+                                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</li>
+                                                <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. has been the industry's standard</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" role="tabpanel" id="teachers" aria-labelledby="teachers-tab">
+                            <ul class="row browse-teachers-list clearfix">
+                                <li class="col-xs-6 col-sm-3">
+                                    <figure> <img src="../images/teacher1.jpg" alt="" width="123" height="124"> </figure>
+                                    <h3>Miras Kural</h3>
+                                    <span class="designation">Math Teacher</span>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                    <ul class="teachers-follow">
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-xs-6 col-sm-3">
+                                    <figure> <img src="../images/teacher2.jpg" alt="" width="123" height="124"> </figure>
+                                    <h3>Jarasar Daulets</h3>
+                                    <span class="designation">Senior Lecturor</span>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                    <ul class="teachers-follow">
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-xs-6 col-sm-3">
+                                    <figure> <img src="../images/teacher3.jpg" alt="" width="123" height="124"> </figure>
+                                    <h3>Ilyas</h3>
+                                    <span class="designation">Development</span>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                    <ul class="teachers-follow">
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-xs-6 col-sm-3">
+                                    <figure> <img src="../images/teacher4.jpg" alt="" width="123" height="124"> </figure>
+                                    <h3>Baibesh Mukhtarhan</h3>
+                                    <span class="designation">professor</span>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
+                                    <ul class="teachers-follow">
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==============================================
+** How to Apply **
+=================================================== -->
+<section class="how-apply padding-lg">
+    <div class="container">
+        <h2><span>There are many ways to learn</span>How to Apply</h2>
+        <ul class="row">
+            <li class="col-sm-4">
+                <div class="icon-block"> <span class="num">1</span> <img src="../images/registration-ico.png" alt=""></div>
+                <h3>REGISTRATION</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+            </li>
+            <li class="col-sm-4">
+                <div class="icon-block"> <span class="num">2</span> <img src="../images/doc-ico.png" alt=""></div>
+                <h3>DOCUMENTATION</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+            </li>
+            <li class="col-sm-4 active">
+                <div class="icon-block"> <span class="num">3</span> <img src="../images/get-start-ico.png" alt=""></div>
+                <h3>Get started now</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+            </li>
+        </ul>
+        <div class="button-wrapper"> <a href="apply-online.html" class="btn">apply now <span class="icon-more-icon"></span></a> </div>
+    </div>
+</section>
+
+<!-- ==============================================
+** Comments **
+=================================================== -->
+<section class="comments-wrapper padding-lg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>3 Comments</h2>
+            </div>
+            <div class="col-sm-12">
+                <ul class="row comments">
+                    <li class="col-sm-12 clearfix">
+                        <div class="com-img"><img src="../images/comment-img1.jpg" class="img-circle" alt=""></div>
+                        <div class="com-txt">
+                            <h3>Miras Kural<span>April 14, 2022 at 13:56</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et ipsum sit amet ex pulvinar mattis. Pellentesque vitae purus viverra, aliquet lacus in, fringilla massa. Suspendisse ac est a nisi aliquet sollicitudin. Interdum et malesuada fames.</p>
+                            <a href="#"><span class="icon-reply-icon"></span>Reply</a>
+                        </div>
+                    </li>
+                    <li class="col-xs-offset-1 col-sm-10 col-lg-7 clearfix">
+                        <div class="com-img"><img src="../images/comment-img2.jpg" class="img-circle" alt=""></div>
+                        <div class="com-txt">
+                            <h3>Baibesh Mukhtarhan<span>April 10, 2022 at 11:40</span></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                            <a href="#"><span class="icon-reply-icon"></span>Reply</a>
+                        </div>
+                    </li>
+                    <li class="col-sm-12 clearfix">
+                        <div class="com-img"><img src="../images/comment-img3.jpg" class="img-circle" alt=""></div>
+                        <div class="com-txt">
+                            <h3>Jarasar Daulets<span>April 6, 2022 at 10:30</span></h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et ipsum sit amet ex pulvinar mattis. Pellentesque vitae purus viverra, aliquet lacus in, fringilla massa. Suspendisse ac est a nisi aliquet sollicitudin. Interdum et malesuada fames.</p>
+                            <a href="#"><span class="icon-reply-icon"></span>Reply</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row leave-comment">
+            <div class="col-lg-12">
+                <h4>LEAVE COMMENT</h4>
+                <form action="#" method="get">
+                    <div class="row1 clearfix">
+                        <input name="Full Name" type="text" placeholder="Full Name">
+                        <input name="Email Address" type="text" placeholder="Email Address">
+                    </div>
+                    <textarea name="Message" placeholder="Message"></textarea>
+                    <button class="btn blue">Post Comment <span class="icon-more-icon"></span></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==============================================
+**Brands**
+=================================================== -->
+<section class="logos">
+    <div class="container">
+        <ul class="owl-carousel clearfix">
+            <li><a href="#"><img src="../images/logo1.jpg" class="img-responsive" alt=""></a></li>
+            <li><a href="#"><img src="../images/logo2.jpg" class="img-responsive" alt=""></a></li>
+            <li><a href="#"><img src="../images/logo3.jpg" class="img-responsive" alt=""></a></li>
+            <li><a href="#"><img src="../images/logo4.jpg" class="img-responsive" alt=""></a></li>
+            <li><a href="#"><img src="../images/logo5.jpg" class="img-responsive" alt=""></a></li>
+            <li><a href="#"><img src="../images/logo6.jpg" class="img-responsive" alt=""></a></li>
+        </ul>
+    </div>
+</section>
+
+<!-- ==============================================
+**Testimonial**
+=================================================== -->
+<section class="testimonial padding-lg">
+    <div class="container">
+        <div class="wrapper">
+            <h2>Lorem ipsum.</h2>
+            <ul class="testimonial-slide">
+                <li>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...<a href="#">Read more</a></p>
+                    <span>Thomas, <span>London</span></span>
+                </li>
+                <li>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...<a href="#">Read more</a></p>
+                    <span>Thomas, <span>London</span></span>
+                </li>
+                <li>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...<a href="#">Read more</a></p>
+                    <span>Thomas, <span>London</span></span>
+                </li>
+            </ul>
+            <div id="bx-pager"> <a data-slide-index="0" href=""><img src="../images/testimonial-thumb1.jpg" class="img-circle" alt="" /></a> <a data-slide-index="1" href=""><img src="../images/testimonial-thumb2.jpg" class="img-circle" alt="" /></a> <a data-slide-index="2" href=""><img src="../images/testimonial-thumb3.jpg" class="img-circle" alt="" /></a> </div>
+        </div>
+    </div>
+</section>
+
+<!--** Footer **-->
+
+<footer class="footer">
+    <!-- Start Footer Top -->
+    <div class="container">
+        <div class="row row1">
+            <div class="col-sm-9 clearfix">
+                <div class="foot-nav">
+                    <h3>About US</h3>
+                    <ul>
+                        <li><a href="#">Bolahsaq Group of Institutions</a></li>
+                        <li><a href="#">Our Institutes and Universities</a></li>
+                        <li><a href="#">Management Team</a></li>
+                        <li><a href="#">Approval and Recognition</a></li>
+                        <li><a href="#">Evaluation & Assessments</a></li>
+                    </ul>
+                </div>
+                <div class="foot-nav">
+                    <h3>Courses</h3>
+                    <ul>
+                        <li><a href="#">Bolahsaq Group of Institutions</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                    </ul>
+                </div>
+                <div class="foot-nav">
+                    <h3>Why Bolshaq</h3>
+                    <ul>
+                        <li><a href="#">Bolahsaq Group of Institutions</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                    </ul>
+                </div>
+                <div class="foot-nav">
+                    <h3>Learning Experience</h3>
+                    <ul>
+                        <li><a href="#">Bolahsaq Group of Institutions</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                        <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="footer-logo hidden-xs"><a href="../index.html"><img src="../images/footer-logo.png" class="img-responsive" alt=""></a></div>
+                <p>© 2022 <span>Bolashaq</span>. All rights reserved</p>
+                <ul class="terms clearfix">
+                    <li><a href="terms.html">TERMS OF USE</a></li>
+                    <li><a href="privacy.html">PRIVACY POLICY</a></li>
+                    <li><a href="#">SITEMAP</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Top -->
+    <!-- Start Footer Bottom -->
+    <div class="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="connect-us">
+                        <h3>Connect with Us</h3>
+                        <ul class="follow-us clearfix">
+                            <li><a href="https://www.facebook.com/Bsaqmola" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCho9-OqZYnnaxiOyAJZFK3w" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/bs_aqmola/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="subscribe">
+                        <h3>Subscribe with Us</h3>
+                        <!-- Begin MailChimp Signup Form -->
+                        <div id="mc_embed_signup">
+                            <form action="//protechtheme.us16.list-manage.com/subscribe/post?u=cd5f66d2922f9e808f57e7d42&amp;id=ec6767feee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div id="mc_embed_signup_scroll">
+                                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="enter your email address" required>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                        <input type="text" name="b_cd5f66d2922f9e808f57e7d42_ec6767feee" tabindex="-1" value="">
+                                    </div>
+                                    <div class="clear">
+                                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!--End mc_embed_signup-->
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="instagram">
+                        <h3>@INSTAGRAM</h3>
+                        <ul class="clearfix">
+                            <li><a href="#">
+                                <figure><img src="images/insta-img1.jpg" class="img-responsive" alt=""></figure>
+                            </a></li>
+                            <li><a href="#">
+                                <figure><img src="images/insta-img2.jpg" class="img-responsive" alt=""></figure>
+                            </a></li>
+                            <li><a href="#">
+                                <figure><img src="images/insta-img3.jpg" class="img-responsive" alt=""></figure>
+                            </a></li>
+                            <li><a href="#">
+                                <figure><img src="images/insta-img4.jpg" class="img-responsive" alt=""></figure>
+                            </a></li>
+                            <li><a href="#">
+                                <figure><img src="images/insta-img5.jpg" class="img-responsive" alt=""></figure>
+                            </a></li>
+                            <li><a href="#">
+                                <figure><img src="images/insta-img6.jpg" class="img-responsive" alt=""></figure>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Bottom -->
+</footer>
+
+<!-- Scroll to top -->
+<a href="#" class="scroll-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+
+<!-- Optional JavaScript -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.1/jquery.matchHeight.js" integrity="sha512-/2Dtxb7JteuxY/VL3SqwychHikRBWdFxwgiFUGVeU0ZQGsYTx+Ln13FNqtvHhqyJvQqyLaVL0pA/2QEl3ebSzg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="../js/modernizr.custom.js"></script>
+<script src="../js/custom.js"></script>
+</body>
+
+</html>
